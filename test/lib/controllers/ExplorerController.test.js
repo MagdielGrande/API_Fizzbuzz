@@ -5,7 +5,7 @@ describe("Test for ExplorerController", () => {
     test("1. Regresar lista de explorers con la mission node", () => {
         const list_mission = ExplorerController.getExplorersByMission("node");
         expect(list_mission.length).toBe(10);
-        expect.objectContaining({mission: "node"})
+        expect.objectContaining({mission: "node"});
     
     });
    
